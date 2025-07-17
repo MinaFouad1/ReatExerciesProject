@@ -21,7 +21,7 @@ const routers = createBrowserRouter([
       },
       //Master Data
       {
-        path: "MovieDetails", // should be the path for Customers changes
+        path: "MovieDetails/:id", // should be the path for Customers changes
         element: <MovieDetails />,
       },
       {
